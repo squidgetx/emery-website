@@ -32,11 +32,7 @@ section {
 
 }
 
-#skills {
-    border-top: 1px grey dashed;
-}
-
-#bio {
+#skills, #bio, #footer {
     border-top: 1px grey dashed;
 }
 
