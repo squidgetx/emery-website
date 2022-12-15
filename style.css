@@ -1,0 +1,45 @@
+body {
+    background-color: #F4FFFA;
+    color: #464E47;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+#wrapper {
+    margin-left: 2em;
+    width: 800px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+#intro {
+    font-size: 16pt;
+}
+
+.service-block, .bio-card {
+    max-width: 40%;
+    padding-right: 2em;
+}
+
+#skilltable {
+    display: flex;
+}
+
+img {
+    width: 150px;
+    height: 150px
+}
+
+h2 {
+    flex-basis: 100%;
+}
+
+li.thead {
+    list-style: none;
+    font-weight: 800;
+    margin-left: -1em;
+
+}
