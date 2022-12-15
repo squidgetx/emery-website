@@ -1,27 +1,43 @@
 body {
     background-color: #F4FFFA;
     color: #464E47;
-    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    font-family: 'Inter', Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    margin: 0;
 }
 
 #wrapper {
-    margin-left: 2em;
     width: 800px;
 }
 
 section {
     display: flex;
-    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
     flex-wrap: wrap;
 }
 
 #intro {
     font-size: 16pt;
+    background-color: khaki;
 }
 
 .service-block, .bio-card {
     max-width: 40%;
     padding-right: 2em;
+}
+
+#services {
+
+}
+
+#skills {
+    border-top: 1px grey dashed;
+}
+
+#bio {
+    border-top: 1px grey dashed;
 }
 
 #skilltable {
@@ -35,6 +51,7 @@ img {
 
 h2 {
     flex-basis: 100%;
+    font-family: 'Helvetica', sans-serif;
 }
 
 li.thead {
