@@ -9,33 +9,52 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="wrapper">
+        <div class="wrapper">
             <section id="header">
                 <h1 class='logo'>
-                    Emery Infrastructure
+                    <img src="assets/logo.png" height="100px"/>
                 </h1>
             </section>
+        </div>
+        <div class="sidebar-wrapper">
+        <div class="wrapper">
             <section id="intro">
-                <p>
-                    Emery provides data infrastructure consulting and contracting services for academic research. We are
-                    dedicated to helping academic teams produce high quality science quickly and efficiently thanks to stable and
-                    reliable data infrastructure. Our teams brings over 10 years of experience in both industry and academia and an
-                    intimate familiarity with both the technical needs of production quality data systems and the 
-                    workflows and unique needs of academic research.
-                </p>
+                    <p class="headline">
+                    <span class='leder'>→</span>
+                        Before it was called data science, it was called science. And it was done by scientists.
+                    </p>
+                    <p class="lede">
+                        We help academics produce high quality research more quickly and efficiently with cutting edge data systems.
+                        The scale and sophistication of quantitative research programs continues to grow, and with it a need to operate 
+                        on top of reliable, stable, and fast data infrastructure. Our team has over 10 years of experience in both industry 
+                        and academia, from Meta/Facebook to epidemiology and social sciences at Yale and NYU. We bring an intimate familiarity
+                        not just with the technical needs of production quality data systems but also with the workflows and unique needs of academic researchers.
+                    </p>
+                    <p class="lede">
+                        Less munging data, more publishing research.
+                    </p>
+            </section>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="art-container">
+                <img class='art' src="assets/sankey_placeholder.png" />
             </section>
             <section id="services">
+                <div class="service-block-wrapper">
                 <div class="service-block">
                     <h2>Consulting</h2>
                     <p>
-                        We leverage our experience working across multiple teams and organizations in industry and academia to 
-                        find the right data system solutions for your particular research needs. Whether you are interested in 
+                        Find the right data system solutions for your particular research needs. Whether you are interested in 
                         social media or geo-spatial data, machine learning or causal inference, in producing original research or 
-                        supporting data services for multiple researchers we are happy to provide our unique perspective in 
-                        choosing your technical stack, designing your data pipeline architecture, providing prototypes and proofs of concept,
-                        or making security and privacy recommendations via our consulting service.
+                        supporting data services for multiple researchers we are happy to offer our consulting services. 
+                        We can provide our unique perspective in choosing a technical stack, designing data pipeline architecture, 
+                        providing prototypes and proofs of concept, making security and privacy recommendations.
+                        
                     </p>
                 </div>
+                </div>
+                <div class="service-block-wrapper">
                 <div class="service-block">
                     <h2>Contracting</h2>
                     <p>
@@ -44,12 +63,14 @@
                         We offer short term project-based contracts as well as monthly maintenance retainer contracts for system support.
                     </p>
                 </div>
+                </div>
             </section>
           
             <section id="bio">
                 <h2>About the team</h2>
+                <div class="service-block-wrapper">
                 <div class="bio-card">
-                    <img src="assets/marcus-sm.png"/>
+                    <img class='headshot' src="assets/marcus-sm.png"/>
                     <div>
                         <p>
                             Marcus russi is a boss. I'm baby normcore art party austin mumblecore DSA hammock. Snackwave listicle before they sold out truffaut tattooed.
@@ -59,8 +80,10 @@
                         </p>
                     </div>
                 </div>
+                </div>
+                <div class="service-block-wrapper">
                 <div class="bio-card">
-                    <img src="assets/sylvan-sm.webp"/>
+                    <img class='headshot' src="assets/sylvan-sm.webp"/>
                     <div>
                         <p>
                             Sylvan Zheng is a boss. Swag polaroid fingerstache, YOLO vexillologist green juice edison bulb cronut yr everyday carry. Put a bird on it
@@ -70,6 +93,7 @@
                             crucifix ugh, mlkshk retro fixie kickstarter post-ironic portland squid coloring book marfa.
                         </p>
                     </div>
+                </div>
                 </div>
             </section>
             <section id="skills">

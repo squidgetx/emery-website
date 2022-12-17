@@ -1,12 +1,13 @@
 body {
-    background-color: #F4FFFA;
+    background-color: #Fff;
     color: #464E47;
     font-family: 'Inter', Helvetica, "Trebuchet MS", Verdana, sans-serif;
     margin: 0;
 }
 
-#wrapper {
+.wrapper {
     width: 800px;
+    margin: auto;
 }
 
 section {
@@ -20,12 +21,24 @@ section {
 
 #intro {
     font-size: 16pt;
+    position: relative;
     background-color: khaki;
 }
 
+.lede {
+    font-size: 14pt;
+}
+
+.sidebar-wrapper {
+    background: linear-gradient(to right, khaki 50%, transparent 0) 0 0/100% 100% no-repeat;
+}
+
 .service-block, .bio-card {
-    max-width: 40%;
     padding-right: 2em;
+}
+
+.service-block-wrapper {
+    max-width: 50%;
 }
 
 #services {
@@ -40,9 +53,10 @@ section {
     display: flex;
 }
 
-img {
+img.headshot {
     width: 150px;
-    height: 150px
+    height: 150px;
+    object-fit: cover;
 }
 
 h2 {
@@ -55,4 +69,15 @@ li.thead {
     font-weight: 800;
     margin-left: -1em;
 
+}
+
+.leder {
+    position: absolute;
+    left: 10px;
+
+}
+
+.art {
+    width: 100%;
+    object-fit: cover;
 }
