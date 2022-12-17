@@ -25,6 +25,21 @@ section {
     background-color: khaki;
 }
 
+#cta {
+    margin: auto;
+    justify-content: center;
+}
+
+#cta>a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    background-color: #464E47;
+    color: #fff;
+    font-weight: bold;
+}
+
+
 .lede {
     font-size: 14pt;
 }
@@ -47,6 +62,10 @@ section {
 
 #skills, #bio, #footer {
     border-top: 1px grey dashed;
+}
+
+#footer {
+    font-size: 10pt
 }
 
 #skilltable {
