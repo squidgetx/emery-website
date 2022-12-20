@@ -25,6 +25,14 @@ section {
     background-color: khaki;
 }
 
+#viz {
+    margin-top: 1em;
+}
+
+#viz:hover {
+    cursor: pointer
+}
+
 #cta {
     margin: auto;
     justify-content: center;

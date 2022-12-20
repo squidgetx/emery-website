@@ -7,6 +7,12 @@
             @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
         </style>
         <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://unpkg.com/d3-shape@1"></script>
+        <script src="https://unpkg.com/d3-sankey@0"></script>
+        <script src='https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js'></script>
+        <script src="./index.js"></script>
+
     </head>
     <body>
         <div class="wrapper">
@@ -40,7 +46,8 @@
             
 
             <div id="art-container">
-                <img class='art' src="assets/sankey_placeholder.png" />
+                <div id="viz"></div>
+                <!--<img class='art' src="assets/sankey_placeholder.png" /> -->
             </section>
             <section id="services">
                 <div class="service-block-wrapper">
